@@ -1,0 +1,17 @@
+.footer__social-list{
+    display: flex;
+    gap: 40px;
+    align-items: end;
+    width: 165px;
+
+    @media screen and (max-width: 535px) {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+.footer__subtitle--social{
+    @media screen and (max-width: 990px) {
+        margin-top: 25px;
+    }
+}

@@ -1,0 +1,37 @@
+.footer__contacts-container{
+    margin-right: 0;
+
+    @media screen and (min-width: 825px) {
+        margin-right: 80px;
+    }
+
+    @media screen and (min-width: 1300px) {
+        margin-right: 145px;
+    }
+}
+
+.footer__contacts-list{
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+}
+
+.footer__contacts-item{
+    display: flex;
+    gap: 14px;
+    align-items: first baseline;
+
+    @media screen and (max-width: 535px) {
+        justify-content: center;
+    }
+}
+
+.footer__contacts-link--locatoin{
+    width: 227px;
+}
+
+.location-icon{
+    margin-right: 5px;
+    width: 11px;
+    height: 16px;
+}

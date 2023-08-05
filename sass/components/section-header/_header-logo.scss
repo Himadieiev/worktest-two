@@ -1,0 +1,21 @@
+.logo {
+  position: relative;
+  margin-right: auto;
+
+  @media screen and (min-width: 768px) {
+      margin-right: 100px;
+    }
+
+  @media screen and (min-width: 1000px) {
+      margin-right: 200px;
+    }
+
+  @media screen and (min-width: 1440px) {
+      margin-right: 330px;
+    }
+}
+
+.logo__img{
+  position: absolute;
+  bottom: 0;
+}
