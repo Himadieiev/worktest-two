@@ -793,7 +793,7 @@ textarea {
 }
 
 .projects__text-container {
-  background-image: url(/images/bg.png), url(/images/project1.jpg);
+  background-image: url(../images/bg.png), url(../images/project1.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
